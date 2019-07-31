@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     let disposeBag = DisposeBag()
     let cellIdentifier = "recipeCellIdentifier"
     var viewModel: ViewModel!
-    //Coleccion de colores a ocupar para fondo en el tableview
+    //Coleccion de colores a ocupar para fondo en el tableview...
+    
     let bgColors : [UIColor] = [.red, .blue, .gray, .white, .brown, .cyan, .green, .yellow, .orange, .magenta, .purple, .lightGray]
     
     override func viewDidLoad() {
